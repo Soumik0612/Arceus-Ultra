@@ -1,0 +1,18 @@
+{
+  "name": "arceus-xd-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "GitHub-ready WhatsApp bot starter with pairing-code login and a large command registry.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "fs-extra": "^11.2.0"
+  }
+}
